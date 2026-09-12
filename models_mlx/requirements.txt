@@ -1,4 +1,5 @@
 mlx-lm==0.31.1
-transformers==4.57.5
+# mlx-lm 0.31.1 requires transformers>=5.0.0; avoid untested major upgrades.
+transformers>=5.0.0,<6.0.0
 gradio==6.9.0
 socksio==1.0.0
